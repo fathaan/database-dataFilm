@@ -1,5 +1,4 @@
 <!-- ------------- HEADER ------------- -->
-<<<<<<< HEAD
 <?php $warnaMenu = 'film'; ?>
 <?php require_once("template/header.php"); ?>
 <!-- ---------------------------------- -->
@@ -20,7 +19,6 @@ $hasilData = $koneksinya->query("SELECT*FROM film");
     </div>
 
     <div class="row card">
-=======
 <?php require_once("template/header.php"); ?>
 <!-- ---------------------------------- -->
 
@@ -37,7 +35,6 @@ $hasilData = $koneksinya->query("SELECT*FROM film");
 
 <!-- ______________ MULAI KONTEN ______________ -->
     <div class="row">
->>>>>>> 63e3e577e39972c3501cc04a835ac0de37a7b00b
         <div class="col-xl-11">
             <!-- ISI KONTEN -->
             <table class="table">
