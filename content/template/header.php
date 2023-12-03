@@ -37,7 +37,11 @@
 
 </head>
 
+<<<<<<< HEAD
 <body class="">
+=======
+<body class="animsition">
+>>>>>>> 63e3e577e39972c3501cc04a835ac0de37a7b00b
     <div class="page-wrapper">
         <!-- MENU SIDEBAR-->
         <aside class="menu-sidebar2">
@@ -56,6 +60,7 @@
                 </div>
                 <nav class="navbar-sidebar2">
                     <ul class="list-unstyled navbar__list">
+<<<<<<< HEAD
                         <li class="<?php echo ($warnaMenu == 'dashboard') ? 'active has-sup' : ''; ?>">
                             <a class="" href="index.php">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
@@ -69,6 +74,17 @@
                                 <i class="fas fa-genderless"></i>Genre</a>
                         </li>
                         <li class="<?php echo ($warnaMenu == 'user') ? 'active has-sup' : ''; ?>">
+=======
+                        <li>
+                            <a class="js-arrow" href="index.php">
+                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="film.php">
+                                <i class="fas fa-film"></i>Film</a>
+                        </li>
+                        <li>
+>>>>>>> 63e3e577e39972c3501cc04a835ac0de37a7b00b
                             <a href="user.php">
                                 <i class="fas fa-user"></i>User</a>
                         </li>
@@ -135,18 +151,26 @@
                     <nav class="navbar-sidebar2">
                         <ul class="list-unstyled navbar__list">
                             <li>
+<<<<<<< HEAD
                                 <a class="" href="index.php">
                                     <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+=======
+                                <a class="js-arrow" href="index.php">
+                                    <i class="fas fa-tachometer-alt"></i>Dashhboard</a>
+>>>>>>> 63e3e577e39972c3501cc04a835ac0de37a7b00b
                             </li>
                             <li>
                                 <a href="film.php">
                                     <i class="fas fa-film"></i>Film</a>
                             </li>
                             <li>
+<<<<<<< HEAD
                                 <a href="genre.php">
                                     <i class="fas fa-genderless"></i>Genre</a>
                             </li>
                             <li>
+=======
+>>>>>>> 63e3e577e39972c3501cc04a835ac0de37a7b00b
                                 <a href="#">
                                     <i class="fas fa-user"></i>User</a>
                             </li>
@@ -179,6 +203,11 @@
                                             <li class="list-inline-item">Dashboard</li>
                                         </ul>
                                     </div>
+<<<<<<< HEAD
+=======
+                                    <button class="au-btn au-btn-icon au-btn--green">
+                                        <i class="zmdi zmdi-plus"></i>add item</button>
+>>>>>>> 63e3e577e39972c3501cc04a835ac0de37a7b00b
                                 </div>
                             </div>
                         </div>
@@ -189,6 +218,10 @@
 
             <!-- STATISTIC--><!-- END STATISTIC-->
 
+<<<<<<< HEAD
             <section class="mt-4">
+=======
+            <section>
+>>>>>>> 63e3e577e39972c3501cc04a835ac0de37a7b00b
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">

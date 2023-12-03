@@ -1,4 +1,5 @@
 <!-- ------------- HEADER ------------- -->
+<<<<<<< HEAD
 <?php $warnaMenu = 'film'; ?>
 <?php require_once("template/header.php"); ?>
 <!-- ---------------------------------- -->
@@ -19,6 +20,24 @@ $hasilData = $koneksinya->query("SELECT*FROM film");
     </div>
 
     <div class="row card">
+=======
+<?php require_once("template/header.php"); ?>
+<!-- ---------------------------------- -->
+
+<?php //DATABASE CONNECT
+$hostname = "localhost";
+$username = "root";
+$password = "";
+$database = "db_film";
+
+$koneksinya = new mysqli($hostname, $username, $password, $database);
+
+$hasilData = $koneksinya->query("SELECT*FROM film");
+?>
+
+<!-- ______________ MULAI KONTEN ______________ -->
+    <div class="row">
+>>>>>>> 63e3e577e39972c3501cc04a835ac0de37a7b00b
         <div class="col-xl-11">
             <!-- ISI KONTEN -->
             <table class="table">
@@ -40,12 +59,18 @@ $hasilData = $koneksinya->query("SELECT*FROM film");
                             <td><?= $data['sutradara'] ?></td>
                         </tr>
                     <?php endforeach; ?>
+<<<<<<< HEAD
             </table>
         </div>
     </div>
 
     <!-- <button class="au-btn au-btn-icon au-btn--green">
     <i class="zmdi zmdi-plus"></i>add Film</button> -->
+=======
+                </table>
+        </div>
+    </div>
+>>>>>>> 63e3e577e39972c3501cc04a835ac0de37a7b00b
 <!-- ______________ AKHIR KONTEN ______________ -->
 
 <!-- ------------- FOOTER ------------- -->
