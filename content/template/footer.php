@@ -8,7 +8,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="copyright">
-                                <p>Muhammad Al Fathan. Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
+                                <p><a href="instagram.com/alfathaannn">Muhammad Al Fathan</a> npm-22753062.</p>
                             </div>
                         </div>
                     </div>
